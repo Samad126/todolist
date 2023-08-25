@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 3px;
+    width: 200px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: solid 1px gray;
+    border: none;
+    border-radius: 2px;
+}
+
+input:focus {
+    outline: solid 1px blue;
+}
+
+.top {
+    border: solid 1px gray;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
+
+h1 {
+    background-color: lightslategrey;
+    margin: 0;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+.search {
+    padding: 0 10px 10px 10px;
+}
+
+.foundToDos {
+    margin-bottom: 10px;
+}
+
+.foundToDos div {
+    display: flex;
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: 5px 3px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.foundToDos button {
+    width: 30px;
+}
+
+@media only screen and (max-width:450px) {
+    button {
+        width: 80%;
+    }
+}
