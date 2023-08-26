@@ -81,6 +81,7 @@ h1 {
 
 .foundToDos button {
     width: 30px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width:450px) {
