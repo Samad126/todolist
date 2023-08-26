@@ -26,7 +26,7 @@ clearAllToDo.addEventListener('click', function clearAll() {
 searchToDo.addEventListener('keyup', search);
 
 function loadAll() {
-    toDos = JSON.parse(localStorage.getItem("todos"));
+    toDos = JSON.parse(localStorage.getItem("todos")) || [];
     addingPlace.innerHTML = "";
 
     // Create todo elements in the DOM
